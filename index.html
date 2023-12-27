@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Company HR Portal</title>
+    <link rel="icon" href="">
+       <style>
+        body{
+            margin: 0;
+            padding: 0;
+            font-family:Arial, sans-serif;
+            background-color:#78bbd6;
+        }
+        header ,footer {
+            background-color: #3b7fac;
+            color: #11171c;
+            text-align: center;
+            padding: 2px;
+        }
+            .navitem{
+                display: inline;
+                padding: 15px;
+            }
+            .navitem a {
+                text-decoration: none;
+                color:(226, 240, 253);
+            }
+            .registerform{
+                width: max-content;  
+               margin-left: auto;
+               margin-right:auto;
+            }
+            
+            .employeetable{
+                text-align: center;
+           }
+           table{
+            margin-right: auto;
+            margin-left: auto;
+            width: 100%;
+            border-collapse: collapse;
+           }
+
+           th,td{
+            border: 1px solid #3b7fac;
+
+           }
+           .contactus{
+            text-align: center;
+           }
+            
+       </style>
+</head>
+<body>
+    <header>
+        <h1> <em>Welcome to Company HR Portal</em></h1>
+        <nav>
+        <ul>
+            <li class="navitem"><a href="#Employee-Registration">Employee Registration</a></li>
+            <li class="navitem"><a href="#Employee-Directory">Employee Directory</a></li>
+            <li class="navitem"><a href="#Contact-us">Contact-Us</a></li>
+        </ul>
+    </nav>
+    </header>
+<image src="https://images.unsplash.com/photo-1560179707-f14e90ef3623?q=80&w=873&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"style="width : 200px;"></image>
+<image src="https://media.istockphoto.com/id/1149958175/photo/modern-skyscrapers-in-midtown-manhattan.jpg?s=612x612&w=0&k=20&c=Q8y5mYKJKp2vm4g7VQsfTWKK6XdoLjVrXR4yBcNX724="style="width : 200px;"></image> 
+<section id="Employee-Registration" class="registerform">
+    <p>Fill the below form to register as <em>employee.</em></p>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name"><br><br>
+            <label for="Email">Email:</label>
+            <input type="Email" id="Email"><br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password"><br><br>
+            <label for="number">Age:</label>
+            <input type="age" id="age"><br><br>
+            <label for="role">Select role:</label>
+            <Select>
+                <option>Software Engineer</option>
+                <option>Product Manager</option>
+                <option>Deginer</option>
+                <option>Devloper</option>
+                <option>Project Manager</option>
+                <option>Tester</option>
+                <option>Marketer</option>
+                <option>HR representaive</option>
+                <option>intern</option>
+            </Select><br><br>
+            <label for="joiningdate">Select joining date:</label>
+            <input type="date" id="joiningdate"><br><br>
+            <input type="Submit">
+
+        </form>
+    </section>
+    
+    <section id="Employee-Directory" class="employeetable">
+        <h2>Employee Directory</h2>
+        <p> Directory of all resigtrated employees.</p>
+        <table border="">
+            <tr>
+                <th>Employee ID</th>
+                <th>Employee Name</th>
+                <th>Employee Role</th>
+            </tr>
+            <tr>
+                <td>8A590GH</td>
+                <td>Riya</td>
+                <td>Devloper</td>
+            </tr>
+            <tr>
+                <td>784Oi98</td>
+                <td>Siya</td>
+                <td>Software Engineer</td>
+            </tr>
+            <tr>
+                <td>23D62Biy</td>
+                <td>Ansh</td>
+                <td>Tester</td>
+            </tr>
+            <tr>
+                <td>857YVio</td>
+                <td>Satvik</td>
+                <td>Marketer</td>
+            </tr>
+            <tr>
+                <td>97654Opm</td>
+                <td>Sahil</td>
+                <td>intern</td>
+            </tr>
+            <tr>
+                <td>864wfjs@k</td>
+                <td>Ravish</td>
+                <td>HR representative</td>
+            </tr>
+            <tr>
+                <td>7843Gdjk</td>
+                <td>Aman</td>
+                <td>Project Manager</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="Contact-us" class="contactus">
+    <h2>Contact Us</h2>
+    <p>You can contact us at company@official.com or visit us between 9AM - 6PM</p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d441617.81944602303!2d76.43002424540744!3d28.478157444656503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d19d582e38859%3A0x2cf5fe8e5c64b1e!2sGurugram%2C%20Haryana!5e0!3m2!1sen!2sin!4v1703327660867!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <footer>
+        <p>&copy; 2023 Company Name</p>
+    </footer>
+</body>
+</html>
